@@ -33,7 +33,7 @@ export default function App() {
   }
   return (
     <>
-      <header>j
+      <header>
         <h1>Your orders</h1>
       </header>
 

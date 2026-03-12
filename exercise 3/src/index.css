@@ -70,8 +70,20 @@ header h1 {
   text-align: center;
   cursor: pointer;
 }
-.order-button .disable {
+.disable {
+  height: 1.5em;
+  line-height: 1.5em;
+  width: 1.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  cursor: pointer;
   background-color: var(--grey-color);
+}
+.disable:hover{
+  background: #d6d4d4;
 }
 
 .order-button:hover {

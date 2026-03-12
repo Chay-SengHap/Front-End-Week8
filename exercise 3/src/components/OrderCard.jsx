@@ -33,7 +33,7 @@ export default function OrderCard({name , price , qty , checkout}) {
       </div>
 
       <div className="order-quantity">
-        <div className="order-button" onClick={minusClick} >-</div>
+        <div className={quantity!=0 ? "order-button" : "disable" } onClick={minusClick} >-</div>
         <h4>{quantity}</h4>
         <div className="order-button" onClick={addClick}>+</div>
       </div>
